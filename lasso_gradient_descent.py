@@ -1,7 +1,4 @@
 import numpy as np
-from scipy.optimize import minimize
-from sklearn.linear_model import Lasso
-import time
 
 def lasso_gradient_descent(X, y, alpha, learning_rate=0.01, num_iterations=10000, tol=1e-4):
     m, n = X.shape
