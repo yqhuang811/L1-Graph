@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.linalg import qr
 
-def random_projection(X, alpha, lambda_val, k):
+def random_projection(X, k):
     n, d = X.shape
     Z = np.zeros((n, n))
     
